@@ -51,5 +51,6 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         context: .
+        file: ./DockerFile
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/quiz-app:latest
