@@ -54,4 +54,4 @@ if __name__ == "__main__":
     # comment out start_game() and uncomment app.run().
     
     start_game()
-    # app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5000)
